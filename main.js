@@ -11,7 +11,7 @@ form.addEventListener('submit', function(e) {
     const menssagemError = `O valor do número A <b>${campoA.value}</b> é maior que o valor do número B <b>${campoB.value}</b>`
     const containerError = document.querySelector('#error-message');
     const containerSuccess = document.querySelector('#success-message')
-formEValido = validaNumero(numeroB.value)
+    formEValido = validaNumero(numeroB.value)
 if ((campoB.value)>(campoA.value)) {
     containerSuccess.innerHTML = mensagemPossitiva
     containerSuccess.style.display = 'block'
@@ -27,3 +27,5 @@ if ((campoB.value)>(campoA.value)) {
 }
 
 })
+
+console.log()
